@@ -1,0 +1,35 @@
+{
+  "name": "printastic",
+  "version": "0.0.0",
+  "description": "printastic printing server. sends pdf files from spool directories to remote printers via printastic-printer client processes",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tap test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/soldair/printastic.git"
+  },
+  "dependencies": {
+    "printastic-protocol": "~0.0.0",
+    "optimist": "~0.3.5"
+  },
+  "devDependencies": {
+    "tap": "~0.4.0",
+    "rimraf": "~2.1.4"
+  },
+  "keywords": [
+    "printserver",
+    "printing",
+    "ghostscript",
+    "printers",
+    "print"
+  ],
+  "author": "Ryan Day",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "gitHead": "1d53ff959bdca9db5f66fa27c068e45bf1e4d690"
+}
